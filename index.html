@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script src="jquery-2.1.0.min.js"></script>
+	<script src="piskvorky.js"></script>
+</head>
+<body>
+
+	<canvas id="game"></canvas>
+
+	<script type="text/javascript">
+
+	$(function() {
+	
+	    var game = new Game({
+	    	'canvas':'game',
+	    	'starts':'ai',
+	    	'winningScore':5,
+	    	'cols':30,
+	    	'rows':30,
+	    	'scale':20
+	    });
+	    
+	});
+
+	</script>
+
+</body>
+</html>
